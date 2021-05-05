@@ -10,6 +10,8 @@ TagManager:
   - Platform
   - RockThrowPos
   - PLAYER
+  - pickableItem
+  - BUTTERFLY
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - HidingPlace
+  - HidingPlayer
   - 
   - 
   - 
