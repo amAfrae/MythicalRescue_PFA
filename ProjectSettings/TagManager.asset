@@ -12,6 +12,7 @@ TagManager:
   - PLAYER
   - pickableItem
   - BUTTERFLY
+  - test
   layers:
   - Default
   - TransparentFX
