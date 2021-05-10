@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"isClimbing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isClimbing_hanging","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canWhistle","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"hasRock","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"hasBouffe","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"isClimbing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isClimbing_hanging","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canWhistle","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"hasRock","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"hasBouffe","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isInAir","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3937425002485866560
 MonoBehaviour:

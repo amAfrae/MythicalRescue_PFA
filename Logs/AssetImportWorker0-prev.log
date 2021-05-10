@@ -15,11 +15,11 @@ E:/GitHub/Online/MythicalRescue_PFA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53121
+50686
 Successfully changed project path to: E:/GitHub/Online/MythicalRescue_PFA
 E:/GitHub/Online/MythicalRescue_PFA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,266 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002062 seconds.
+Registered in 0.001452 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.945 seconds
+- Completed reload, in  1.458 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005890 seconds.
+Registered in 0.005220 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
+- Completed reload, in  0.941 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.8 MB.
 System memory in use after: 84.9 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 2.470100 ms (FindLiveObjects: 0.430300 ms CreateObjectMapping: 0.144100 ms MarkObjects: 1.823600 ms  DeleteObjects: 0.069600 ms)
+Total: 2.174500 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.105100 ms MarkObjects: 1.806200 ms  DeleteObjects: 0.061300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Import/beast.png
-  artifactKey: Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/beast.png using Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b6fbdb83e0a9717e735539d6d21fae') in 0.131859 seconds
-  Import took 0.166439 seconds .
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_PROFIL.png
+  artifactKey: Guid(423fcceef54af744488a4f4944ef40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_PROFIL.png using Guid(423fcceef54af744488a4f4944ef40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c174163179e665f7c1545b0fd443bfa0') in 0.093839 seconds
+  Import took 0.096552 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.159348 seconds.
-  path: Assets/Import/beast.png
-  artifactKey: Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/beast.png using Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210dbbb6a774d1441b75d38a98a7d52a') in 0.034091 seconds
-  Import took 0.038497 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_HAUT_Haut.png
+  artifactKey: Guid(c926f1ba5c83d5b409775a271c42b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_HAUT_Haut.png using Guid(c926f1ba5c83d5b409775a271c42b24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6186f8e1b0b1e68966bd2539e0060f') in 0.012707 seconds
+  Import took 0.015109 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.056542 seconds.
-  path: Assets/Import/beast.png
-  artifactKey: Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/beast.png using Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210dbbb6a774d1441b75d38a98a7d52a') in 0.018274 seconds
-  Import took 0.022754 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_BAS_Bas.png
+  artifactKey: Guid(1f80081aeb4ee3a429bef59fcd447c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_BAS_Bas.png using Guid(1f80081aeb4ee3a429bef59fcd447c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8816e6f3221110cd49cbaf95f7068aea') in 0.015034 seconds
+  Import took 0.017758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.120934 seconds.
-  path: Assets/Import/beast.png
-  artifactKey: Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/beast.png using Guid(03fb51bb7bc74c04896318a3b279ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff187e3d2694bddcdff6706c528f73b') in 0.215891 seconds
-  Import took 0.221465 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_HAUT.png
+  artifactKey: Guid(266acde02c27d2e45a95bf54bc4fff2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_HAUT.png using Guid(266acde02c27d2e45a95bf54bc4fff2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b297cd4d0edc0427dcacee59a1acc7') in 0.014327 seconds
+  Import took 0.016936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_HAUT.png
+  artifactKey: Guid(5169417eeb7b679488430be2c9a0ab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_HAUT.png using Guid(5169417eeb7b679488430be2c9a0ab02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532f418c137809c951da8da4c7036fbd') in 0.013975 seconds
+  Import took 0.067803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_HAUT_Haut.png
+  artifactKey: Guid(360753801add74a48a33f4fad0de9ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_HAUT_Haut.png using Guid(360753801add74a48a33f4fad0de9ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77a63962023c38bd02083d1efc186b') in 0.013241 seconds
+  Import took 0.080240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_BAS_Bas.png
+  artifactKey: Guid(054616e2d85752f488f5ec27b41d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_BAS_Bas.png using Guid(054616e2d85752f488f5ec27b41d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a6f01d1ace7bb27db772930496db54') in 0.012017 seconds
+  Import took 0.014553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit.png
+  artifactKey: Guid(4b652111dbeddb6468b4f185c5d1e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit.png using Guid(4b652111dbeddb6468b4f185c5d1e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bbd09e6d72b968af9c260aaf426ee6') in 0.013734 seconds
+  Import took 0.016563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_HAUT.png
+  artifactKey: Guid(406bd83925ae6374dbd10227839c1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_HAUT.png using Guid(406bd83925ae6374dbd10227839c1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04b491b4673e5fb8587826c900dfec1') in 0.013500 seconds
+  Import took 0.016076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche.png
+  artifactKey: Guid(a577e2e349d66f54f950e54a8f762d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche.png using Guid(a577e2e349d66f54f950e54a8f762d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0df7272fb0350257dd3a69e4e2badf') in 0.012039 seconds
+  Import took 0.014515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_BAS.png
+  artifactKey: Guid(da862305c6e508b4aa5fe64d458d1ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_BAS.png using Guid(da862305c6e508b4aa5fe64d458d1ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0045ff3649ff29790bc3a41f29c349') in 0.011408 seconds
+  Import took 0.013929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_HAUT_Haut.png
+  artifactKey: Guid(961ef597fa36f1a4dac785e09117fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_HAUT_Haut.png using Guid(961ef597fa36f1a4dac785e09117fae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7f055daf96210193f7f53b5c7102e6') in 0.013581 seconds
+  Import took 0.017274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_HAUT_Haut.png
+  artifactKey: Guid(782f1ab866d063a499dd6ff7225c245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_HAUT_Haut.png using Guid(782f1ab866d063a499dd6ff7225c245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f65f34c9e821a1f140662f3269916a') in 0.011500 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_BAS.png
+  artifactKey: Guid(267e715ed5523bd4bae3f93750e97d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_BAS.png using Guid(267e715ed5523bd4bae3f93750e97d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ecfa63cf2e6ac8ad6b80645e1bd3fa') in 0.013649 seconds
+  Import took 0.016199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_HAUT_Haut.png
+  artifactKey: Guid(6cbdf0f38aa2d6c4eab8819769093a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_HAUT_Haut.png using Guid(6cbdf0f38aa2d6c4eab8819769093a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61d8175373034bc2c9f1a37db579f8c') in 0.012767 seconds
+  Import took 0.015237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_BAS.png
+  artifactKey: Guid(f356dda542278b74d909aebe26cab422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_BAS.png using Guid(f356dda542278b74d909aebe26cab422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ead3ce57093cf6f12a90475bfc20d13') in 0.012184 seconds
+  Import took 0.014613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_Profil.png
+  artifactKey: Guid(b7a6107a1a1a72a479d51342e0241f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_Profil.png using Guid(b7a6107a1a1a72a479d51342e0241f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e9bc9c77ac907e56ae88d1a690690e') in 0.012345 seconds
+  Import took 0.014800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_BAS_Bas.png
+  artifactKey: Guid(0c4c89b843099f74899ad87be4eb3f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_BAS_Bas.png using Guid(0c4c89b843099f74899ad87be4eb3f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5a787b3b1fb08cfcdf0cdf36696330') in 0.012036 seconds
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_BAS.png
+  artifactKey: Guid(22fad02d1af5afa4985f79e7cb717f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Gauche_BAS.png using Guid(22fad02d1af5afa4985f79e7cb717f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5259cd540533698825ec4c023f3f5f7') in 0.017826 seconds
+  Import took 0.020277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_BAS_Bas.png
+  artifactKey: Guid(2edb383241b8e7f4780fe98c2ad004e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_BAS_Bas.png using Guid(2edb383241b8e7f4780fe98c2ad004e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d496207e099f59d2caae3c6a41c3198') in 0.011633 seconds
+  Import took 0.014164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_HAUT.png
+  artifactKey: Guid(33bbdb11b5b5f5d47a4b2be27fc6b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_HAUT.png using Guid(33bbdb11b5b5f5d47a4b2be27fc6b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c19f3b55d6f275da4057e188d8f6a') in 0.014880 seconds
+  Import took 0.017357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_BAS.png
+  artifactKey: Guid(55f89bc793ea0994fa18c2ed6374de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Droit_BAS.png using Guid(55f89bc793ea0994fa18c2ed6374de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06290a19832abeb489e44910c76adfb8') in 0.017276 seconds
+  Import took 0.058641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_HAUT.png
+  artifactKey: Guid(155a805a06185104a9fe14d592947bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_Droit_HAUT.png using Guid(155a805a06185104a9fe14d592947bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b65b9b35a74089d697e0d845e9aee8a') in 0.011991 seconds
+  Import took 0.116161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_BAS_Bas.png
+  artifactKey: Guid(7dd6c5e70ccdea04795e52526e1bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_Profil_BAS_Bas.png using Guid(7dd6c5e70ccdea04795e52526e1bae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d638653c90d8f330ae814f742757a4') in 0.012117 seconds
+  Import took 0.014568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_Profil.png
+  artifactKey: Guid(f4105bf5dd7454041acaf33d37a6cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG/Animation_Tête_3-4_Gauche_Profil.png using Guid(f4105bf5dd7454041acaf33d37a6cb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b3b7ac906458c3127441ba264f6954') in 0.013243 seconds
+  Import took 0.016671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.549286 seconds.
+  path: Assets/Import/BeastAnimTest
+  artifactKey: Guid(d412fb2cdec593d489005be338b31aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest using Guid(d412fb2cdec593d489005be338b31aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678451cfc11aa269070089b9e6390a62') in 0.005231 seconds
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Import/BeastAnimTest
+  artifactKey: Guid(d412fb2cdec593d489005be338b31aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest using Guid(d412fb2cdec593d489005be338b31aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678451cfc11aa269070089b9e6390a62') in 0.001875 seconds
+  Import took 0.004775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.066229 seconds.
+  path: Assets/Import/BeastAnimTest/PNG
+  artifactKey: Guid(4483c0c37b6c5d74fb8b212d7c5f09e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BeastAnimTest/PNG using Guid(4483c0c37b6c5d74fb8b212d7c5f09e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02f0022f0e0f6e0d150e5dd3110f2b8') in 0.006550 seconds
+  Import took 0.009683 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
